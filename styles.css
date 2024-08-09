@@ -1,0 +1,82 @@
+body {
+    background-color: #151618;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #343a40;
+}
+
+.table {
+    background-color: #131111;
+}
+
+.table th {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+img {
+    border-radius: 5px;
+}
+body {
+    background-image: url('images/background.jpg'); /* Path to your wallpaper image */
+    background-size: cover; /* Scale the image to cover the entire background */
+    background-attachment: fixed; /* Keep the background image fixed during scrolling */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+    max-width: 800px; /* Limit container width */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    border-radius: 50%; /* Optional: Round the image */
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url('images/background.jpg'); /* Path to your wallpaper image */
+    background-size: cover; /* Scale the image to cover the entire background */
+    background-attachment: fixed; /* Keep the background image fixed during scrolling */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px; /* Limit container width */
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+    box-sizing: border-box;
+    overflow: hidden; /* Ensure content fits within the container */
+}
